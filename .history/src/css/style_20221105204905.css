@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--main-color);
+}
+
+.container{
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    background-color: var(--card-color);
+    max-width: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.card .title{
+    font-size: 22px;
+    justify-content: flex-start;
+    margin-top: 15px;
+    
+}
+
+.card .title:hover{
+    cursor: pointer;
+    color: var(--angle-color);
+} 
+
+.card .card-description{
+    color: var(--secondary-color);
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.card a img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .image-link{
+    position: relative;
+}
+
+.card .image-link::before{
+    display: none;
+    content: '';
+    background-color: var(--angle-color);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+.info-element{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info-element .angle{
+    color: var(--angle-color);
+    display: flex;
+    gap: 4px;
+}
+
+.card .info-element .angle::before{
+    content: '';
+    background: url(../images/icon-ethereum.svg) no-repeat center;
+    width: 15px;
+    height: 15px;
+}
+
+.info-element .days-left{
+    color: var(--secondary-color);
+    display: flex;
+    gap: 4px;
+}
+
+.card .creator{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-top: 1px solid var(--line-color);
+    padding-top: 15px;
+}
+
+.card .creator img{
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.card .creator p{
+    display: flex;
+    font-size: 14px;
+    gap: 5px;
+    color: var(--secondary-color);
+}
+
+.card .creator .creator-link{
+    color: var(--white);
+    
+}
+
+.card .creator .creator-link:hover{
+    color: var(--angle-color);
+}
+

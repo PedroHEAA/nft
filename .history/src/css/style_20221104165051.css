@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    max-width: 1366px;
+    height: 768px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    background-color: var(--card-color);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.card .title{
+    font-size: 17px;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.card .card-description{
+    color: var(--secondary-color);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.info-elements{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info-elements .angle{
+    color: var(--angle-color);
+    display: flex;
+    gap: 4px;
+}
+
+.info-elements .days{
+    color: var(--secondary-color);
+    display: flex;
+    gap: 4px;
+}
+
+.line{
+    background-color: var(--line-color);
+    width: 250px;
+    height: 1px;
+    border-width: 0;
+}
+
+.card .creator{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.card .creator img{
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.card .creator p{
+    display: flex;
+    margin: auto;
+    margin-inline: 0;
+    font-size: 13px;
+    gap: 5px;
+    color: var(--secondary-color);
+}
+
+.card .creator a{
+    color: var(--white);
+    
+}
+
+.alinhar{
+    display: flex;
+    flex-direction: column;
+}

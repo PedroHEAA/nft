@@ -1,0 +1,10 @@
+.container{
+    background-color: var(--main-color);
+    display: flex;
+
+}
+
+.card{
+    background-color: var(--card-color);
+    width: 300px;
+}

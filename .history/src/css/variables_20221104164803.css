@@ -1,0 +1,7 @@
+:root{
+    --main-color: hsl(217, 54%, 11%);
+    --card-color: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --angle-color: hsl(178, 100%, 50%);
+    --secondary-color: hsl(215, 51%, 70%);
+}
